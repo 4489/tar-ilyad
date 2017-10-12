@@ -1,10 +1,10 @@
 ; asmsyntax=asm68k
 
 ;------------------------------------------------------------------------------
-; description  :  demo
+; description  :  copper rotozoomer for tar-ilyad / tar-pang / tar-toki
 ;
 ; created      :  Thu Feb 09, 2017  04:29:16 AM
-; modified     :  Thu Jun 04, 2017  19:20:52 PM
+; modified     :  Thu Oct 12, 2017  12:33:44 PM
 ;------------------------------------------------------------------------------
 
                 org     $d000
