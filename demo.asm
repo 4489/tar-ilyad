@@ -4,7 +4,7 @@
 ; description  :  copper rotozoomer for tar-ilyad / tar-pang / tar-toki
 ;
 ; created      :  Thu Feb 09, 2017  04:29:16 AM
-; modified     :  Thu Oct 12, 2017  12:33:44 PM
+; modified     :  Thu Oct 12, 2017  04:12:28 PM
 ;------------------------------------------------------------------------------
 
                 org     $d000
@@ -148,7 +148,7 @@ roto_init       bsr     sys_membase
                 move.l  #((284 - (12 * 9)) / 2) << 24, d4
                 move.l  #((284 + (12 * 9)) / 2) << 24, d5
                 add.l   d0, d4                              ; y-pos text on
-                add.l   d0, d5                              ; y-poa text off
+                add.l   d0, d5                              ; y-pos text off
 
                 ; start lists
                 ;--------------------------------------------------------------
